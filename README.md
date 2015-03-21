@@ -14,10 +14,10 @@ six space-delimited text files and two space-delimited files containing label in
 
 * *subject_test.txt*, *subject_train.txt* hold an identifier of the experiment participant
 * *y_test.txt*, *y_train.txt* hold an identifier for the activity being performed
-* *X_test.txt*, *X_train.txt* hold 561 measurements
+* *X_test.txt*, *X_train.txt* hold 561 measurements in columns
 
-* *activity_labels.txt* holds a text label for each activity identifier.
-* *features.txt* holds a text label for each of the 561 measurements.
+* *activity_labels.txt* holds a text label for each activity identifier
+* *features.txt* holds a text label for each of the 561 measurements
 
 The raw data zip file contains a file called *feature_info.txt* which give more information on the actual measurements
 and how they were gathered and computed. 
@@ -86,6 +86,7 @@ The merge data set is produced through a series of transformations.
 * Make readable Subject identifiers
 * Make final edits to the column names
 
+### Create File
 Once all the processing is complete, the data set is written to a text file named *getdata-activity-measure-values.txt*
 in the current working directory.
 
