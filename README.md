@@ -15,7 +15,6 @@ six space-delimited text files and two space-delimited files containing label in
 * *subject_test.txt*, *subject_train.txt* hold an identifier of the experiment participant
 * *y_test.txt*, *y_train.txt* hold an identifier for the activity being performed
 * *X_test.txt*, *X_train.txt* hold 561 measurements in columns
-
 * *activity_labels.txt* holds a text label for each activity identifier
 * *features.txt* holds a text label for each of the 561 measurements
 
@@ -81,7 +80,7 @@ The merge data set is produced through a series of transformations.
 * Turn the columns into key values pairs
 * Further split the keys into an aggregate and a measure
 * Compute the average for each aggregate and measure by subject and activity
-* Reshape the data to make columns of the aggregate averages.\
+* Reshape the data to make columns of the aggregate averages.
 * Convert activity identifiers into activity names
 * Make readable Subject identifiers
 * Make final edits to the column names
