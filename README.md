@@ -45,7 +45,7 @@ And provides values for the AverageMean and AverageSTD.
 This interpretation of the project requirements conform to my experience with data warehouses where aggregates of 
 measures exist as available facts. It caters to analyses where one or more aggregate statistics are needed at the same time.
 
-Additional information is available in the [code book]()
+Additional information is available in the [code book](https://github.com/brdudley/GetData_Project/blob/master/CodeBook.md)
 
 ## Overview of Processing
 To produce the final tidy data set a series of steps had to be applied. Both the *dplyr* and *tidyr* packages are used.
